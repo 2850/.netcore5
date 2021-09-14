@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcD1GZ9H3JogtSZbmIdvldfeebZJ08BTzGxwe5nX+iKtRcimoJsP9cFt0IXl40lZu+dxLzUFcvJcX6DGQWfLIQ==",
+  "dgSpecHash": "Ukog1/buRgG1x5qbikPi37whniNEKWtU39R1LsR4yy8iPJCgsSxYcyvur1vs85oHzyQU61KuxjvjuVQBY0EMQw==",
   "success": true,
-  "projectFilePath": "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -59,7 +59,7 @@ namespace PlatformService
 
 
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
