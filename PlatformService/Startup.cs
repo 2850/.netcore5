@@ -19,19 +19,32 @@ namespace PlatformService
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
 
         public IConfiguration Configuration { get; }
+        private readonly IWebHostEnvironment _env;
+
+        public Startup(IConfiguration configuration,IWebHostEnvironment env)
+        {
+            Configuration = configuration;
+            _env = env;
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            if (_env.IsProduction())
+            {
+                Console.WriteLine(" --> Useing SQL SERVER Db");
+                services.AddDbContext<AppDbContext>(
+                    opt => opt.UseSqlServer(Configuration.GetConnectionString("PlatformsConn")));
+            }
+            else
+            {
+                Console.WriteLine(" --> Useing InMem Db");
+                // 將資料寫入記憶體 當作DB
+                services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
+            }
 
-            // 將資料寫入記憶體 當作DB
-            services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
 
             services.AddScoped<IPlatformRepo,PlatformRepo>();
             services.AddHttpClient<ICommandDataClient,HttpCommandDataClient>();
@@ -57,8 +70,6 @@ namespace PlatformService
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformService v1"));
             }
 
-
-
             // app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -71,7 +82,7 @@ namespace PlatformService
             });
 
             // 讓builder 傳入 準備的資料庫
-            PrepDb.PrepPopulation(app);
+            PrepDb.PrepPopulation(app,env.IsProduction());
         }
     }
 }
