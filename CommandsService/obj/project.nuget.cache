@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ysno39qfSCikeTM501AnZ/vutiRJO+z52p9DwlSo6vYrXMnH0BTsuFOP4Tqt0ZY+s8RDDp1JUKTQJaPH2NChA==",
+  "dgSpecHash": "qbUAuWA45gfvNmUbLDTlf/uD/Y4lxEYuI56yYHt2mqhAUwhvynAGpsESbBdiEoSm8q/HuKVMM1sOkdBqkBe2Nw==",
   "success": true,
-  "projectFilePath": "d:\\web\\.netcore\\.netcore5\\CommandsService\\CommandsService.csproj",
+  "projectFilePath": "D:\\web\\.netcore\\.netcore5\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {}
+    "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {
+    "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
+        "projectPath": "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\web\\.netcore\\.netcore5\\PlatformService\\obj\\",
+        "outputPath": "d:\\web\\.netcore\\.netcore5\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
