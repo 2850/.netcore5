@@ -63,3 +63,13 @@ D:\web\.netcore\.netcore5\PlatformService\obj\Debug\net5.0\ref\PlatformService.d
 D:\web\.netcore\.netcore5\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 D:\web\.netcore\.netcore5\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
 D:\web\.netcore\.netcore5\PlatformService\bin\Debug\net5.0\appsettings.Production.json
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.csproj.AssemblyReference.cache
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.GeneratedMSBuildEditorConfig.editorconfig
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.AssemblyInfoInputs.cache
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.AssemblyInfo.cs
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.csproj.CoreCompileInputs.cache
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cs
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cache
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.dll
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
+D:\web\.netcore\S4\PlatformService\obj\Debug\net5.0\PlatformService.pdb

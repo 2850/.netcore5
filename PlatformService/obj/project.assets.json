@@ -5991,24 +5991,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Willis.KO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
+      "projectUniqueName": "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "d:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "d:\\web\\.netcore\\.netcore5\\PlatformService\\obj\\",
+      "projectPath": "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj",
+      "packagesPath": "C:\\Users\\Willis.KO\\.nuget\\packages\\",
+      "outputPath": "D:\\web\\.netcore\\S4\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Willis.KO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\web\\nugetpackage": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
