@@ -76,3 +76,4 @@ D:\web\.netcore\S4\CommandsService\obj\Debug\net5.0\CommandsService.dll
 D:\web\.netcore\S4\CommandsService\obj\Debug\net5.0\ref\CommandsService.dll
 D:\web\.netcore\S4\CommandsService\obj\Debug\net5.0\CommandsService.pdb
 D:\web\.netcore\S4\CommandsService\obj\Debug\net5.0\CommandsService.genruntimeconfig.cache
+D:\web\.netcore\.netcore5\CommandsService\bin\Debug\net5.0\RabbitMQ.Client.dll

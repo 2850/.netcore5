@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj": {}
+    "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj": {
+    "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "D:\\web\\.netcore\\S4\\PlatformService\\PlatformService.csproj",
-        "packagesPath": "C:\\Users\\Willis.KO\\.nuget\\packages\\",
-        "outputPath": "D:\\web\\.netcore\\S4\\PlatformService\\obj\\",
+        "projectPath": "D:\\web\\.netcore\\.netcore5\\PlatformService\\PlatformService.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\web\\.netcore\\.netcore5\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Willis.KO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\web\\nugetpackage": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
